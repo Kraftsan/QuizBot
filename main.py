@@ -1,7 +1,7 @@
 import asyncio
 import logging
 from aiogram import Bot, Dispatcher
-from handlers import start, quiz  # убрали stats
+from handlers import start, quiz
 from database import init_db
 
 # Настройка логирования
@@ -9,7 +9,7 @@ logging.basicConfig(level=logging.INFO)
 
 async def main():
     # Инициализация бота и диспетчера
-    bot = Bot(token="API_TOKEN")
+    bot = Bot(token="8220978438:AAE4ZnG_OgadH_PA2PJovSj-8c3Qb2yLXuY")
     dp = Dispatcher()
 
     # Инициализация базы данных

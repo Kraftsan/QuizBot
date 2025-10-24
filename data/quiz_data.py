@@ -24,7 +24,7 @@ quiz_data = [
         'options': ['Java', 'Python', 'C++', 'JavaScript'],
         'correct_option': 1,
         'topic': 'programming'
-    }
+    },
 
     # Животные (3 вопроса)
     {
