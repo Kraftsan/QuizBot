@@ -9,7 +9,7 @@ logging.basicConfig(level=logging.INFO)
 
 async def main():
     # Инициализация бота и диспетчера
-    bot = Bot(token="8220978438:AAE4ZnG_OgadH_PA2PJovSj-8c3Qb2yLXuY")
+    bot = Bot(token="API_TOKEN")
     dp = Dispatcher()
 
     # Инициализация базы данных
